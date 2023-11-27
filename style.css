@@ -5,6 +5,60 @@
   font-size: 2em;
 }
 
+p {
+  border-style: solid; color: lightpink;
+  border-width: 1px;
+  font-size: 16px
+
+ }
+
+
+.navbar{
+  background-color: blue;
+  padding: 20px;
+}
+
+
+#name{
+  border-radius: 2em;
+  margin-bottom: 15px;
+}
+
+ul * {
+  text-decoration:none;
+  color: yellow;
+}
+
+
+.favorite-food *{
+display: inline-block;
+padding: 5px;
+}
+
+.inline-block {
+padding: 5px;
+}
+
+.hero {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  text-align: center;
+}
+
+.features{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+
+.footer{
+  position: fixed;
+  bottom: 0;
+}
+  
+
 /* Section 1: Selectors in CSS + Box Model */
 
 
